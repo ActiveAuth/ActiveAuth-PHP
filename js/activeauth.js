@@ -15,7 +15,7 @@
 */
 
 // create form to submit
-document.write('<form action="' + ACAaction + '" id="2fa-form" method="post"><input type="hidden" id="2fa-verify" name="2fa-verify" value="" /></form>');
+document.write('<form action="" id="2fa-form" method="post"><input type="hidden" id="2fa-verify" name="2fa-verify" value="" /></form>');
 // Message to the server
 var srv = encodeURIComponent(ACASecret.split(':')[1]);
 // Message to the app
