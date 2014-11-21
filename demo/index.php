@@ -84,6 +84,9 @@ else if (isset($_POST['2fa-verify'])) {
 
         echo 'Hello, ' . $response . '<br>';
         echo 'Your are logged!';
+    } else {
+        //Error with communication or user credentials
+        //Login has to fail
     }
 }
 
